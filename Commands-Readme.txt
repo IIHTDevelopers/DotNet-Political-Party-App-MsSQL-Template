@@ -13,7 +13,7 @@
              ( PoliticalParties /dotnet-ef database update)
 
 *  To check whether migrations are applied from terminal:
-	( PoliticalParties /sqlcmd -S localhost -U sa -P pass@word1 )
+	( PoliticalParties.Tests /sqlcmd -S localhost -U sa -P pass@word1 )
 	1> Use PoliticalPartyDb
 	2> Go
 	1> Select * From __EFMigrationsHistory
