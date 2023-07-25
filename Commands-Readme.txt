@@ -4,7 +4,7 @@
 	( PoliticalParties /sqlcmd -S localhost -U sa -P pass@word1 )
 	
 	-To create database from terminal - 
-	1> Create Database PoliticalParty_Db
+	1> Create Database PoliticalPartyDb
 	2> Go
 
 * Steps to Apply Migration(Code first approach):
@@ -14,7 +14,7 @@
 
 *  To check whether migrations are applied from terminal:
 	( PoliticalParties /sqlcmd -S localhost -U sa -P pass@word1 )
-	1> Use PoliticalParty_Db
+	1> Use PoliticalPartyDb
 	2> Go
 	1> Select * From __EFMigrationsHistory
 	2> Go
